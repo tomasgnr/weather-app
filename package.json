@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Proof of Concept (PoC) - Weather App. Node.js & Express API proxy (hide public API keys, caching and rate limiting, caching).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": "git@github.com:tomasgnr/weather-app.git",
+  "author": "Tomas Mariani",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0",
+    "needle": "^3.0.0"
+  }
+}
