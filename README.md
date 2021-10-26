@@ -2,6 +2,8 @@
 
 Proof of Concept (PoC) - Weather App. Node.js &amp; Express API proxy (hide public API keys, caching and rate limiting, caching). Uses the [OpenWeather API](https://openweathermap.org/api)
 
+See the app demo [here](https://tomasgnr-weather-app.herokuapp.com/).
+
 ## Usage
 
 ### Install dependencies
